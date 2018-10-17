@@ -1,2 +1,2 @@
 steps:
-  - command: cmake . && make && ./Assignment1
+  - command: apt update && apt install -y cmake && cmake . && make && ./Assignment1
