@@ -1,2 +1,2 @@
 steps:
-  command: cmake . && make && ./Assignment1
+  - command: cmake . && make && ./Assignment1
